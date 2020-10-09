@@ -1,6 +1,6 @@
 body {
     background-color: ivory;
-    padding-left: 25px;
+    padding-left: 50px;
 }
 
 h1 {
@@ -16,16 +16,19 @@ h2 {
 h3 {
     font-family: 'Rock Salt', cursive;
     color: midnightblue;
+    margin: 8px 0;
 }
 
 h4 {
     font-family: 'Raleway', sans-serif;
     color: darkslateblue;
+    margin: 6px 0;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     color: darkslateblue;
+    margin: 8px 0;
 }
 
 #form-wrapper {
@@ -47,6 +50,10 @@ label.field-title {
 
 ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
 }
 
 li.Fruit-and-Veg {
@@ -103,6 +110,15 @@ li.Alcohol {
     border-radius: 10px;
 }
 
+li.Bakery {
+    border: rgb(201, 188, 5) 4px solid;
+    background-color: rgba(201, 188, 5, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
 input[type=submit] {
     background-color: white;
     border: darkslateblue 3px solid;
@@ -111,7 +127,7 @@ input[type=submit] {
     border-radius: 6px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 input[type=submit]:hover {
@@ -120,7 +136,16 @@ input[type=submit]:hover {
     transition: 0.25s;
 }
 
-input {
+input#shoppingItem {
+    width: 160px;
+    height: 28px;
+    border: darkslateblue solid 0.8px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+}
+
+input#quantity {
     width: 160px;
     height: 28px;
     border: darkslateblue solid 0.8px;
@@ -146,6 +171,7 @@ button {
     border-radius: 6px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 button:hover {
@@ -155,5 +181,14 @@ button:hover {
 }
 
 textarea {
-    height: 28px;
+    height: 20px;
+    width: 200px;
+    padding: 4px 10px;
+    font-family: 'Raleway', sans-serif;
+    text-justify: auto;
+}
+
+footer {
+    text-align: left;
+    padding: 30px 0;
 }

@@ -18,7 +18,7 @@
             <div id="form-wrapper">
                 <div class="form-item">
                     <label for="shoppingItem" class="field-title">Shopping item:</label>
-                    <input type="text" id="shoppingItem" required>
+                    <input type="text" id="shoppingItem" placeholder="e.g. Apples" required>
                 </div>
 
                 <div class="form-item">
@@ -35,12 +35,13 @@
                         <option value="Meat and Fish">Meat and Fish</option>
                         <option value="Grocery">Grocery</option>
                         <option value="Frozen Food">Frozen Food</option>
+                        <option value="Bakery">Bakery</option>
                         <option value="Alcohol">Alcohol</option>
                     </select>
                 </div>
                 <div class="form-item">
                     <label for="notes" class="field-title">Notes:</label>
-                    <textarea id="notes" cols="40" rows="2"></textarea>
+                    <textarea id="notes"></textarea>
                 </div>
             </div>
             <input type="submit" value="Add to list">
@@ -51,5 +52,8 @@
         </ul>
         <button id="delete-list">Clear shopping list</button>
     </main>
+    <footer>
+        <p>Shopping List 2020 &copy; David Strain</p>
+    </footer>
 </body>
 </html>
