@@ -1,0 +1,159 @@
+body {
+    background-color: ivory;
+    padding-left: 25px;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    color: midnightblue;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+    color: midnightblue;
+}
+
+h3 {
+    font-family: 'Rock Salt', cursive;
+    color: midnightblue;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: darkslateblue;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: darkslateblue;
+}
+
+#form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-item {
+    margin-right: 1.8rem;
+}
+
+label.field-title {
+    font-family: 'Raleway', sans-serif;
+    color: darkslateblue;
+    display: block;
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li.Fruit-and-Veg {
+    border: rgb(43, 143, 63) 4px solid;
+    background-color: rgba(43, 143, 63, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+li.Chillers {
+    border: rgb(100, 185, 224) 4px solid;
+    background-color: rgba(100, 185, 224, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+li.Meat-and-Fish {
+    border: rgb(204, 80, 80) 4px solid;
+    background-color: rgba(204, 80, 80, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+li.Grocery {
+    border: rgb(105, 105, 105) 4px solid;
+    background-color: rgba(105, 105, 105, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+li.Frozen-Food {
+    border: rgb(0, 0, 179) 4px solid;
+    background-color: rgba(0, 0, 179, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+li.Alcohol {
+    border: rgb(128, 0, 0) 4px solid;
+    background-color: rgba(128, 0, 0, 0.2);
+    padding: 10px 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: darkslateblue 3px solid;
+    color: midnightblue;
+    padding: 6px 20px;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: darkslateblue;
+    color: white;
+    transition: 0.25s;
+}
+
+input {
+    width: 160px;
+    height: 28px;
+    border: darkslateblue solid 0.8px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+}
+
+select {
+    width: 160px;
+    height: 28px;
+    border: darkslateblue solid 0.8px;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: midnightblue;
+}
+
+button {
+    background-color: white;
+    border: darkslateblue 3px solid;
+    color: midnightblue;
+    padding: 6px 20px;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: darkslateblue;
+    color: white;
+    transition: 0.25s;
+}
+
+textarea {
+    height: 28px;
+}
